@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Croc Monsieur Shop</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            text-align: center;
+        }
+        header {
+            background-color: #ffcc00;
+            padding: 20px;
+            font-size: 28px;
+            font-weight: bold;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 40px;
+        }
+        .product {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+            padding: 25px;
+            width: 320px;
+            text-align: center;
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+        .product:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+        }
+        .product img {
+            width: 100%;
+            border-radius: 15px;
+        }
+        .product h2 {
+            font-size: 22px;
+            font-weight: 700;
+            margin-top: 15px;
+        }
+        .product p {
+            font-size: 18px;
+            color: #555;
+            margin-top: 10px;
+        }
+        .whatsapp-link {
+            margin-top: 20px;
+        }
+        .whatsapp-link a {
+            display: inline-flex;
+            align-items: center;
+            background-color: #25D366;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s ease;
+        }
+        .whatsapp-link a:hover {
+            background-color: #1EBE5D;
+        }
+        .whatsapp-link img {
+            width: 24px;
+            height: 24px;
+            margin-right: 10px;
+        }
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                align-items: center;
+                padding: 20px;
+            }
+            .product {
+                width: 90%;
+                max-width: 300px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>Bienvenue sur Croc Monsieur Shop 🍞🧀</header>
+    <div class="container">
+        <div class="product">
+            <img src="WhatsApp Image 2025-02-24 à 21.30.03_cf129bb9.jpg" alt="Croc Monsieur Classique">
+            <h2>Croc Monsieur Classique</h2>
+            <p>Délicieux et croustillant - 500 Frcfa</p>
+        </div>
+        <div class="product">
+            <img src="croque-monsieur-4-1320x878.jpg" alt="Croc Monsieur Gourmet">
+            <h2>Croc Monsieur Gourmet</h2>
+            <p>Avec du jambon de qualité - 1000 Frcfa</p>
+        </div>
+        <div class="product">
+            <img src="i132873-croque-monsieur-vegetarien-avocat-mozzarella-et-epinards.webp" alt="Croc Monsieur Végétarien">
+            <h2>Croc Monsieur Végétarien</h2>
+            <p>Fromage fondant et légumes - 800 Frcfa</p>
+        </div>
+    </div>
+    <div class="whatsapp-link">
+        <a href="https://wa.me/+24174618837" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+            Contactez-nous sur WhatsApp 📲
+        </a>
+    </div>
+</body>
+</html>
